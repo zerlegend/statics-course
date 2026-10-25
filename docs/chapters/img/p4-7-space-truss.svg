@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="560" height="340" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="560" height="340" rx="10" fill="#ffffff"/><rect width="560" height="340" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<line x1="163.5" y1="272.5" x2="339.5" y2="272.5" stroke="#0f172a" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round"/>
+<line x1="162.0" y1="270.0" x2="338.0" y2="270.0" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+<line x1="162.0" y1="270.0" x2="338.0" y2="270.0" stroke="#8294ab" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="339.5" y1="272.5" x2="192.1" y2="314.7" stroke="#0f172a" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round"/>
+<line x1="338.0" y1="270.0" x2="190.6" y2="312.2" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+<line x1="338.0" y1="270.0" x2="190.6" y2="312.2" stroke="#8294ab" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="192.1" y1="314.7" x2="163.5" y2="272.5" stroke="#0f172a" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round"/>
+<line x1="190.6" y1="312.2" x2="162.0" y2="270.0" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+<line x1="190.6" y1="312.2" x2="162.0" y2="270.0" stroke="#8294ab" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="163.5" y1="272.5" x2="227.7" y2="139.8" stroke="#0f172a" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round"/>
+<line x1="162.0" y1="270.0" x2="226.2" y2="137.3" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+<line x1="162.0" y1="270.0" x2="226.2" y2="137.3" stroke="#8294ab" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="339.5" y1="272.5" x2="227.7" y2="139.8" stroke="#0f172a" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round"/>
+<line x1="338.0" y1="270.0" x2="226.2" y2="137.3" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+<line x1="338.0" y1="270.0" x2="226.2" y2="137.3" stroke="#8294ab" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="192.1" y1="314.7" x2="227.7" y2="139.8" stroke="#0f172a" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round"/>
+<line x1="190.6" y1="312.2" x2="226.2" y2="137.3" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+<line x1="190.6" y1="312.2" x2="226.2" y2="137.3" stroke="#8294ab" stroke-width="1.2" stroke-linecap="round"/>
+<circle cx="162.0" cy="270.0" r="5" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<text x="148.0" y="276.0" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">A</text>
+<circle cx="338.0" cy="270.0" r="5" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<text x="352.0" y="276.0" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">B</text>
+<circle cx="190.6" cy="312.2" r="5" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<text x="176.6" y="326.2" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">C</text>
+<circle cx="226.2" cy="137.3" r="5" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<text x="226.2" y="125.3" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">D</text>
+<text x="30.0" y="30.0" text-anchor="start" fill="#1f2937" font-size="14" font-weight="bold">Tetrahedral space truss</text>
+<text x="30.0" y="50.0" text-anchor="start" fill="#6b7280" font-size="13">m = 6 members, j = 4 joints, r = 6 reaction components</text>
+</svg>

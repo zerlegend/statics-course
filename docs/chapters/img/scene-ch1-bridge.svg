@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="720" height="400" rx="10" fill="#ffffff"/><rect width="720" height="400" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<rect width="720" height="400" rx="10" fill="url(#sky)"/>
+<rect x="0" y="330" width="720" height="70" fill="#9ec5e6"/>
+<line x1="20.0" y1="352.0" x2="52.0" y2="352.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="80.0" y1="362.0" x2="112.0" y2="362.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="140.0" y1="372.0" x2="172.0" y2="372.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="200.0" y1="352.0" x2="232.0" y2="352.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="260.0" y1="362.0" x2="292.0" y2="362.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="320.0" y1="372.0" x2="352.0" y2="372.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="380.0" y1="352.0" x2="412.0" y2="352.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="440.0" y1="362.0" x2="472.0" y2="362.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="500.0" y1="372.0" x2="532.0" y2="372.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="560.0" y1="352.0" x2="592.0" y2="352.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="620.0" y1="362.0" x2="652.0" y2="362.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<line x1="680.0" y1="372.0" x2="712.0" y2="372.0" stroke="#d6eaf8" stroke-width="2" stroke-linecap="round"/>
+<rect x="45" y="286" width="30" height="80" fill="url(#conc)" stroke="#475569" stroke-width="1.6"/>
+<rect x="645" y="286" width="30" height="80" fill="url(#conc)" stroke="#475569" stroke-width="1.6"/>
+<rect x="40" y="270" width="640" height="16" fill="url(#conc)" stroke="#334155" stroke-width="2" filter="url(#sh)"/>
+<line x1="50.0" y1="270.0" x2="50.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="70.0" y1="270.0" x2="70.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="90.0" y1="270.0" x2="90.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110.0" y1="270.0" x2="110.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="130.0" y1="270.0" x2="130.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="150.0" y1="270.0" x2="150.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="170.0" y1="270.0" x2="170.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="190.0" y1="270.0" x2="190.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="210.0" y1="270.0" x2="210.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="230.0" y1="270.0" x2="230.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="250.0" y1="270.0" x2="250.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="270.0" y1="270.0" x2="270.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="290.0" y1="270.0" x2="290.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="310.0" y1="270.0" x2="310.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="330.0" y1="270.0" x2="330.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="350.0" y1="270.0" x2="350.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="370.0" y1="270.0" x2="370.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="390.0" y1="270.0" x2="390.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="410.0" y1="270.0" x2="410.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="430.0" y1="270.0" x2="430.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="450.0" y1="270.0" x2="450.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="470.0" y1="270.0" x2="470.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="490.0" y1="270.0" x2="490.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="510.0" y1="270.0" x2="510.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="530.0" y1="270.0" x2="530.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="550.0" y1="270.0" x2="550.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="570.0" y1="270.0" x2="570.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="590.0" y1="270.0" x2="590.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="610.0" y1="270.0" x2="610.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="630.0" y1="270.0" x2="630.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="650.0" y1="270.0" x2="650.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="670.0" y1="270.0" x2="670.0" y2="256.0" stroke="#64748b" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="40.0" y1="256.0" x2="680.0" y2="256.0" stroke="#64748b" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="338.0,270.0 382.0,270.0 368.0,62.0 352.0,62.0" fill="url(#conc)" stroke="#475569" stroke-width="2" stroke-linejoin="round" filter="url(#sh)"/>
+<line x1="360.0" y1="80.0" x2="106.7" y2="270.0" stroke="#334155" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="360.0" y1="80.0" x2="613.3" y2="270.0" stroke="#334155" stroke-width="3.2" stroke-linecap="round"/>
+<line x1="360.0" y1="118.0" x2="157.3" y2="270.0" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+<line x1="360.0" y1="118.0" x2="562.7" y2="270.0" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+<line x1="360.0" y1="156.0" x2="208.0" y2="270.0" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+<line x1="360.0" y1="156.0" x2="512.0" y2="270.0" stroke="#334155" stroke-width="2" stroke-linecap="round"/>
+<circle cx="360.0" cy="80.0" r="4" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<line x1="360.0" y1="80.0" x2="312.8" y2="115.4" stroke="#c0392b" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="304.0,122.0 310.3,112.1 315.3,118.7" fill="#c0392b"/>
+<text x="298.0" y="114.0" text-anchor="end" fill="#c0392b" font-size="13" font-weight="bold">T = 450 kN</text>
+<line x1="360.0" y1="80.0" x2="407.2" y2="115.4" stroke="#c0392b" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="416.0,122.0 404.7,118.7 409.7,112.1" fill="#c0392b"/>
+<text x="422.0" y="114.0" text-anchor="start" fill="#c0392b" font-size="13" font-weight="bold">T = 450 kN</text>
+<line x1="408.0" y1="175.0" x2="408.0" y2="87.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="408.0,80.0 410.7,87.0 405.3,87.0" fill="#6b7280"/>
+<line x1="408.0" y1="175.0" x2="408.0" y2="263.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="408.0,270.0 405.3,263.0 410.7,263.0" fill="#6b7280"/>
+<text x="416.0" y="179.0" text-anchor="start" fill="#6b7280" font-size="12">30 m</text>
+<text x="220.0" y="306.0" text-anchor="middle" fill="#6b7280" font-size="12">40 m (horizontal from tower axis to deck anchor)</text>
+<line x1="107.0" y1="290.0" x2="360.0" y2="290.0" stroke="#6b7280" stroke-width="1" stroke-dasharray="4,3" stroke-linecap="round"/>
+<text x="360.0" y="24.0" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">Cable-stayed footbridge: forces from the stay cables act on the tower top</text>
+<text x="360.0" y="44.0" text-anchor="middle" fill="#6b7280" font-size="12">(only the top pair of cables is analysed in the example)</text>
+<rect width="720" height="400" rx="10" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+</svg>

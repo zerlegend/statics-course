@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440" width="600" height="440" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="600" height="440" rx="10" fill="#ffffff"/><rect width="600" height="440" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<line x1="110.0" y1="270.0" x2="481.0" y2="270.0" stroke="#6b7280" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="490.0,270.0 481.0,273.4 481.0,266.6" fill="#6b7280"/>
+<line x1="300.0" y1="420.0" x2="300.0" y2="119.0" stroke="#6b7280" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="300.0,110.0 303.4,119.0 296.6,119.0" fill="#6b7280"/>
+<text x="500.0" y="275.0" text-anchor="middle" fill="#6b7280" font-size="14" font-style="italic">x</text>
+<text x="300.0" y="102.0" text-anchor="middle" fill="#6b7280" font-size="14" font-style="italic">y</text>
+<line x1="300.0" y1="270.0" x2="456.5" y2="322.2" stroke="#1a7f37" stroke-width="3" stroke-linecap="round"/>
+<polygon points="466.0,325.3 455.3,325.8 457.7,318.6" fill="#1a7f37"/>
+<line x1="300.0" y1="270.0" x2="157.7" y2="222.6" stroke="#1a7f37" stroke-width="2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="300.0" y1="270.0" x2="344.3" y2="137.2" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<polygon points="347.4,127.7 347.9,138.4 340.7,136.0" fill="#c0392b"/>
+<line x1="300.0" y1="270.0" x2="262.1" y2="383.8" stroke="#c0392b" stroke-width="2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<text x="478.0" y="337.3" text-anchor="middle" fill="#1a7f37" font-size="16" font-weight="bold">1</text>
+<text x="359.4" y="127.7" text-anchor="middle" fill="#c0392b" font-size="16" font-weight="bold">2</text>
+<polyline points="370.0,270.0 370.0,270.6 370.0,271.1 370.0,271.7 370.0,272.3 369.9,272.8 369.9,273.4 369.9,273.9 369.9,274.5 369.8,275.1 369.8,275.6 369.7,276.2 369.7,276.7 369.6,277.3 369.6,277.9 369.5,278.4 369.4,279.0 369.3,279.5 369.3,280.1 369.2,280.7 369.1,281.2 369.0,281.8 368.9,282.3 368.8,282.9 368.7,283.4 368.6,284.0 368.5,284.5 368.4,285.1 368.2,285.6 368.1,286.2 368.0,286.7 367.8,287.3 367.7,287.8 367.5,288.4 367.4,288.9 367.2,289.4 367.1,290.0 366.9,290.5 366.8,291.1 366.6,291.6 366.4,292.1" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="400.0" y="294.0" text-anchor="middle" fill="#6b7280" font-size="13">α<tspan dy="4" font-size="10">p</tspan><tspan dy="-4">&#8203;</tspan></text>
+<circle cx="300.0" cy="270.0" r="4" fill="#1f2937" stroke="#1f2937" stroke-width="1"/>
+<text x="24.0" y="30.0" text-anchor="start" fill="#1f2937" font-size="13">Given: I<tspan dy="4" font-size="10">x</tspan><tspan dy="-4">&#8203;</tspan> = 10, I<tspan dy="4" font-size="10">y</tspan><tspan dy="-4">&#8203;</tspan> = 2, I<tspan dy="4" font-size="10">xy</tspan><tspan dy="-4">&#8203;</tspan> = 3   (×10<tspan dy="-5" font-size="10">6</tspan><tspan dy="5">&#8203;</tspan> mm<tspan dy="-5" font-size="10">4</tspan><tspan dy="5">&#8203;</tspan>)</text>
+<text x="24.0" y="52.0" text-anchor="start" fill="#6b7280" font-size="13">Find the principal moments and the angle α<tspan dy="4" font-size="10">p</tspan><tspan dy="-4">&#8203;</tspan> to the axis of I<tspan dy="4" font-size="10">max</tspan><tspan dy="-4">&#8203;</tspan>.</text>
+</svg>

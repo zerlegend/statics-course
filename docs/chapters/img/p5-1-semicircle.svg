@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="420" height="300" rx="10" fill="#ffffff"/><rect width="420" height="300" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<polygon points="330.0,230.0 329.7,221.6 328.8,213.3 327.4,205.1 325.4,196.9 322.8,189.0 319.6,181.2 316.0,173.7 311.8,166.4 307.1,159.5 301.9,152.9 296.3,146.6 290.3,140.8 283.9,135.4 277.1,130.5 270.0,126.1 262.6,122.1 255.0,118.7 247.1,115.9 239.0,113.6 230.8,111.8 222.5,110.7 214.2,110.1 205.8,110.1 197.5,110.7 189.2,111.8 181.0,113.6 172.9,115.9 165.0,118.7 157.4,122.1 150.0,126.1 142.9,130.5 136.1,135.4 129.7,140.8 123.7,146.6 118.1,152.9 112.9,159.5 108.2,166.4 104.0,173.7 100.4,181.2 97.2,189.0 94.6,196.9 92.6,205.1 91.2,213.3 90.3,221.6 90.0,230.0" fill="url(#conc)" stroke="#1f2937" stroke-width="2.5" stroke-linejoin="round" filter="url(#sh)"/>
+<line x1="60.0" y1="230.0" x2="360.0" y2="230.0" stroke="#6b7280" stroke-width="1.2" stroke-dasharray="5,4" stroke-linecap="round"/>
+<circle cx="210.0" cy="179.1" r="5" fill="#1a7f37" stroke="#1a7f37" stroke-width="1"/>
+<text x="220.0" y="183.1" text-anchor="start" fill="#1a7f37" font-size="14" font-weight="bold">centroid</text>
+<line x1="210.0" y1="230.0" x2="210.0" y2="179.1" stroke="#1a7f37" stroke-width="1.5" stroke-dasharray="3,3" stroke-linecap="round"/>
+<text x="202.0" y="204.5" text-anchor="end" fill="#1a7f37" font-size="15">ȳ = ?</text>
+<line x1="210.0" y1="230.0" x2="210.0" y2="261.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="330.0" y1="230.0" x2="330.0" y2="261.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="270.0" y1="256.0" x2="217.0" y2="256.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="210.0,256.0 217.0,253.3 217.0,258.7" fill="#6b7280"/>
+<line x1="270.0" y1="256.0" x2="323.0" y2="256.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="330.0,256.0 323.0,258.7 323.0,253.3" fill="#6b7280"/>
+<text x="270.0" y="275.0" text-anchor="middle" fill="#6b7280" font-size="13">r = 0.6 m</text>
+</svg>

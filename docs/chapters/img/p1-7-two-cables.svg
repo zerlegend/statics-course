@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 320" width="440" height="320" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="440" height="320" rx="10" fill="#ffffff"/><rect width="440" height="320" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<circle cx="90.1" cy="105.0" r="6" fill="url(#conc)" stroke="#1f2937" stroke-width="2"/>
+<circle cx="303.6" cy="80.4" r="6" fill="url(#conc)" stroke="#1f2937" stroke-width="2"/>
+<line x1="220.0" y1="180.0" x2="90.1" y2="105.0" stroke="#334155" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="220.0" y1="180.0" x2="303.6" y2="80.4" stroke="#334155" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="120.0" y1="180.0" x2="320.0" y2="180.0" stroke="#6b7280" stroke-width="1" stroke-dasharray="4,4" stroke-linecap="round"/>
+<circle cx="220.0" cy="180.0" r="6" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<line x1="220.0" y1="180.0" x2="220.0" y2="260.0" stroke="#c0392b" stroke-width="3.2" stroke-linecap="round"/>
+<polygon points="220.0,270.0 216.2,260.0 223.8,260.0" fill="#c0392b"/>
+<text x="220.0" y="288.0" text-anchor="middle" fill="#c0392b" font-size="14" font-weight="bold">800 N</text>
+<polyline points="169.8,151.0 169.4,151.7 169.0,152.3 168.7,153.0 168.3,153.7 168.0,154.3 167.7,155.0 167.3,155.7 167.0,156.4 166.7,157.1 166.4,157.8 166.1,158.5 165.9,159.2 165.6,159.9 165.3,160.6 165.1,161.4 164.8,162.1 164.6,162.8 164.4,163.5 164.2,164.3 164.0,165.0 163.8,165.7 163.6,166.5 163.4,167.2 163.3,167.9 163.1,168.7 163.0,169.4 162.8,170.2 162.7,170.9 162.6,171.7 162.5,172.4 162.4,173.2 162.3,173.9 162.2,174.7 162.2,175.4 162.1,176.2 162.1,177.0 162.0,177.7 162.0,178.5 162.0,179.2 162.0,180.0" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="136.0" y="156.0" text-anchor="middle" fill="#6b7280" font-size="12">30°</text>
+<polyline points="272.0,180.0 272.0,178.9 272.0,177.7 271.9,176.6 271.8,175.5 271.7,174.3 271.6,173.2 271.4,172.1 271.2,171.0 271.0,169.9 270.8,168.7 270.5,167.6 270.2,166.5 269.9,165.4 269.6,164.4 269.2,163.3 268.9,162.2 268.5,161.2 268.0,160.1 267.6,159.1 267.1,158.0 266.6,157.0 266.1,156.0 265.6,155.0 265.0,154.0 264.5,153.0 263.9,152.1 263.2,151.1 262.6,150.2 261.9,149.3 261.3,148.3 260.6,147.5 259.8,146.6 259.1,145.7 258.3,144.9 257.6,144.0 256.8,143.2 256.0,142.4 255.1,141.7 254.3,140.9 253.4,140.2" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="290.0" y="162.0" text-anchor="middle" fill="#6b7280" font-size="12">50°</text>
+<text x="88.1" y="93.0" text-anchor="middle" fill="#1f6feb" font-size="13" font-weight="bold">cable A</text>
+<text x="303.6" y="68.4" text-anchor="middle" fill="#1f6feb" font-size="13" font-weight="bold">cable B</text>
+</svg>

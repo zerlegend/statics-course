@@ -1,0 +1,42 @@
+/* Diagrams are drawn on a white card so they stay readable in dark mode. */
+.vp-doc img[src*="/img/"],
+.vp-doc img[src^="data:image/svg"],
+.vp-doc img[src*=".svg"] {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: #ffffff;
+  cursor: zoom-in;
+}
+
+/* Click-to-zoom for small screens */
+.vp-doc img.zoomed {
+  position: fixed;
+  z-index: 100;
+  inset: 4vh 2vw;
+  width: 96vw;
+  height: 92vh;
+  max-width: none;
+  margin: 0;
+  object-fit: contain;
+  cursor: zoom-out;
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.6);
+}
+
+/* Keep the quick-quiz and callouts readable */
+.vp-doc .custom-block { border-radius: 10px; }
+
+/* Print: show only the chapter content */
+@media print {
+  .VPNav, .VPSidebar, .VPLocalNav, .VPDocAside, .VPDocFooter, .VPFooter, .quiz-reset, .vp-doc .header-anchor { display: none !important; }
+  .VPContent, .VPDoc, .VPDoc .container, .VPDoc .content, .VPDoc .content-container { padding: 0 !important; margin: 0 !important; max-width: 100% !important; }
+  .VPDoc.has-sidebar { padding-left: 0 !important; }
+  .vp-doc img { max-width: 100%; break-inside: avoid; cursor: default; }
+  .vp-doc details { display: block; }
+  .vp-doc h2, .vp-doc h3 { break-after: avoid; }
+  .vp-doc table, .vp-doc .custom-block, .quiz { break-inside: avoid; }
+  .quiz { border: 1px solid #999; background: #fff; }
+  a { color: inherit; text-decoration: none; }
+}

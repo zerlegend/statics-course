@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="520" height="420" rx="10" fill="#ffffff"/><rect width="520" height="420" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<polygon points="100.0,360.0 286.0,360.0 100.0,50.0" fill="url(#conc)" stroke="#1f2937" stroke-width="2.5" stroke-linejoin="round" filter="url(#sh)"/>
+<line x1="100.0" y1="391.0" x2="100.0" y2="12.8" stroke="#6b7280" stroke-width="2" stroke-dasharray="9,5" stroke-linecap="round"/>
+<text x="108.0" y="12.8" text-anchor="start" fill="#6b7280" font-size="13">axis of revolution</text>
+<circle cx="162.0" cy="256.7" r="5" fill="#1a7f37" stroke="#1a7f37" stroke-width="1"/>
+<text x="172.0" y="274.7" text-anchor="start" fill="#1a7f37" font-size="12">centroid of area</text>
+<line x1="100.0" y1="256.7" x2="162.0" y2="256.7" stroke="#1a7f37" stroke-width="1.5" stroke-dasharray="3,3" stroke-linecap="round"/>
+<text x="131.0" y="248.7" text-anchor="middle" fill="#1a7f37" font-size="12">r̄ = 1 m</text>
+<circle cx="193.0" cy="205.0" r="5" fill="#1f6feb" stroke="#1f6feb" stroke-width="1"/>
+<text x="205.0" y="201.0" text-anchor="start" fill="#1f6feb" font-size="12">centroid of slant line</text>
+<text x="205.0" y="219.0" text-anchor="start" fill="#1f6feb" font-size="12">L = 5.83 m, r̄ = 1.5 m</text>
+<line x1="100.0" y1="360.0" x2="100.0" y2="393.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="286.0" y1="360.0" x2="286.0" y2="393.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="193.0" y1="388.0" x2="107.0" y2="388.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="100.0,388.0 107.0,385.3 107.0,390.7" fill="#6b7280"/>
+<line x1="193.0" y1="388.0" x2="279.0" y2="388.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="286.0,388.0 279.0,390.7 279.0,385.3" fill="#6b7280"/>
+<text x="193.0" y="407.0" text-anchor="middle" fill="#6b7280" font-size="13">3 m</text>
+<line x1="100.0" y1="360.0" x2="65.0" y2="360.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="100.0" y1="50.0" x2="65.0" y2="50.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="70.0" y1="205.0" x2="70.0" y2="353.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="70.0,360.0 67.3,353.0 72.7,353.0" fill="#6b7280"/>
+<line x1="70.0" y1="205.0" x2="70.0" y2="57.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="70.0,50.0 72.7,57.0 67.3,57.0" fill="#6b7280"/>
+<text x="62.0" y="209.0" text-anchor="end" fill="#6b7280" font-size="13">5 m</text>
+<text x="100.0" y="360.0" text-anchor="middle" fill="#1f2937" font-size="14"></text>
+</svg>

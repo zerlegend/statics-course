@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" width="640" height="260" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="640" height="260" rx="10" fill="#ffffff"/><rect width="640" height="260" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<text x="150.0" y="30.0" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">(a) two non-collinear members</text>
+<line x1="61.5" y1="122.5" x2="151.5" y2="122.5" stroke="#0f172a" stroke-opacity="0.18" stroke-width="6" stroke-linecap="round"/>
+<line x1="60.0" y1="120.0" x2="150.0" y2="120.0" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+<line x1="60.0" y1="120.0" x2="150.0" y2="120.0" stroke="#8294ab" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="151.5" y1="122.5" x2="221.5" y2="192.5" stroke="#0f172a" stroke-opacity="0.18" stroke-width="6" stroke-linecap="round"/>
+<line x1="150.0" y1="120.0" x2="220.0" y2="190.0" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+<line x1="150.0" y1="120.0" x2="220.0" y2="190.0" stroke="#8294ab" stroke-width="2.8" stroke-linecap="round"/>
+<circle cx="150.0" cy="120.0" r="6" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<text x="150.0" y="106.0" text-anchor="middle" fill="#6b7280" font-size="12">joint, no load</text>
+<text x="150.0" y="235.0" text-anchor="middle" fill="#c0392b" font-size="13">forces in both members = ?</text>
+<text x="480.0" y="30.0" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">(b) three members, two collinear</text>
+<line x1="391.5" y1="122.5" x2="561.5" y2="122.5" stroke="#0f172a" stroke-opacity="0.18" stroke-width="6" stroke-linecap="round"/>
+<line x1="390.0" y1="120.0" x2="560.0" y2="120.0" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+<line x1="390.0" y1="120.0" x2="560.0" y2="120.0" stroke="#8294ab" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="476.5" y1="122.5" x2="531.5" y2="202.5" stroke="#0f172a" stroke-opacity="0.18" stroke-width="6" stroke-linecap="round"/>
+<line x1="475.0" y1="120.0" x2="530.0" y2="200.0" stroke="#1f2937" stroke-width="6" stroke-linecap="round"/>
+<line x1="475.0" y1="120.0" x2="530.0" y2="200.0" stroke="#8294ab" stroke-width="2.8" stroke-linecap="round"/>
+<circle cx="475.0" cy="120.0" r="6" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<text x="475.0" y="104.0" text-anchor="middle" fill="#6b7280" font-size="12">E (no load)</text>
+<text x="420.0" y="140.0" text-anchor="middle" fill="#6b7280" font-size="13" font-weight="bold">AE</text>
+<text x="525.0" y="140.0" text-anchor="middle" fill="#6b7280" font-size="13" font-weight="bold">EC</text>
+<text x="518.0" y="190.0" text-anchor="middle" fill="#6b7280" font-size="13" font-weight="bold">ED</text>
+<text x="480.0" y="225.0" text-anchor="middle" fill="#c0392b" font-size="13">F<tspan dy="4" font-size="10">ED</tspan><tspan dy="-4">&#8203;</tspan> = ?</text>
+<text x="480.0" y="245.0" text-anchor="middle" fill="#c0392b" font-size="13">compare F<tspan dy="4" font-size="10">AE</tspan><tspan dy="-4">&#8203;</tspan> and F<tspan dy="4" font-size="10">EC</tspan><tspan dy="-4">&#8203;</tspan></text>
+</svg>

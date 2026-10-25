@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="720" height="420" rx="10" fill="#ffffff"/><rect width="720" height="420" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<rect width="720" height="420" rx="10" fill="url(#sky)"/>
+<rect x="0" y="330" width="720" height="90" fill="url(#soil)"/>
+<rect x="60" y="282" width="200" height="48" fill="url(#soil)"/>
+<polygon points="304.0,282.0 304.0,42.0 690.0,42.0 690.0,330.0 440.0,330.0 440.0,282.0" fill="url(#soil)" stroke="#b89f78" stroke-width="1.2" stroke-linejoin="round" filter="url(#sh)"/>
+<line x1="60.0" y1="282.0" x2="264.0" y2="282.0" stroke="#6b5b45" stroke-width="3" stroke-linecap="round"/>
+<line x1="304.0" y1="42.0" x2="690.0" y2="42.0" stroke="#6b5b45" stroke-width="3" stroke-linecap="round"/>
+<polygon points="200.0,330.0 440.0,330.0 440.0,282.0 304.0,282.0 304.0,42.0 264.0,42.0 264.0,282.0 200.0,282.0" fill="url(#conc)" stroke="#334155" stroke-width="2.4" stroke-linejoin="round" filter="url(#sh)"/>
+<text x="196.0" y="346.0" text-anchor="end" fill="#1f2937" font-size="13">O (toe)</text>
+<circle cx="200.0" cy="330.0" r="5" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<circle cx="303.6" cy="240.5" r="6" fill="#1a7f37" stroke="#14532d" stroke-width="1.5"/>
+<text x="317.6" y="280.5" text-anchor="start" fill="#1a7f37" font-size="13" font-weight="bold">centroid G</text>
+<line x1="315.6" y1="274.5" x2="306.6" y2="248.5" stroke="#1a7f37" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="392.0" y1="234.0" x2="322.0" y2="234.0" stroke="#c0392b" stroke-width="3.6" stroke-linecap="round"/>
+<polygon points="312.0,234.0 322.0,230.2 322.0,237.8" fill="#c0392b"/>
+<text x="400.0" y="232.0" text-anchor="start" fill="#c0392b" font-size="13" font-weight="bold">P = 40 kN/m</text>
+<text x="400.0" y="248.0" text-anchor="start" fill="#c0392b" font-size="12">(soil thrust, 1.2 m above base)</text>
+<text x="540.0" y="190.0" text-anchor="middle" fill="#6b5b45" font-size="14" font-style="italic">retained soil</text>
+<text x="90.0" y="266.0" text-anchor="middle" fill="#6b5b45" font-size="12">toe side</text>
+<line x1="200.0" y1="330.0" x2="200.0" y2="361.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="440.0" y1="330.0" x2="440.0" y2="361.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="320.0" y1="356.0" x2="207.0" y2="356.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="200.0,356.0 207.0,353.3 207.0,358.7" fill="#6b7280"/>
+<line x1="320.0" y1="356.0" x2="433.0" y2="356.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="440.0,356.0 433.0,358.7 433.0,353.3" fill="#6b7280"/>
+<text x="320.0" y="375.0" text-anchor="middle" fill="#6b7280" font-size="13">3.0 m</text>
+<line x1="284.0" y1="30.0" x2="271.0" y2="30.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="264.0,30.0 271.0,27.3 271.0,32.7" fill="#6b7280"/>
+<line x1="284.0" y1="30.0" x2="297.0" y2="30.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="304.0,30.0 297.0,32.7 297.0,27.3" fill="#6b7280"/>
+<text x="284.0" y="24.0" text-anchor="middle" fill="#6b7280" font-size="12">0.5 m</text>
+<line x1="232.0" y1="162.0" x2="232.0" y2="49.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="232.0,42.0 234.7,49.0 229.3,49.0" fill="#6b7280"/>
+<line x1="232.0" y1="162.0" x2="232.0" y2="275.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="232.0,282.0 229.3,275.0 234.7,275.0" fill="#6b7280"/>
+<text x="224.0" y="166.0" text-anchor="end" fill="#6b7280" font-size="12">3.0 m</text>
+<line x1="456.0" y1="306.0" x2="456.0" y2="289.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="456.0,282.0 458.7,289.0 453.3,289.0" fill="#6b7280"/>
+<line x1="456.0" y1="306.0" x2="456.0" y2="323.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="456.0,330.0 453.3,323.0 458.7,323.0" fill="#6b7280"/>
+<text x="464.0" y="310.0" text-anchor="start" fill="#6b7280" font-size="12">0.6 m</text>
+<line x1="200.0" y1="330.0" x2="200.0" y2="360.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round"/>
+<line x1="232.0" y1="262.0" x2="207.0" y2="262.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="200.0,262.0 207.0,259.3 207.0,264.7" fill="#6b7280"/>
+<line x1="232.0" y1="262.0" x2="257.0" y2="262.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="264.0,262.0 257.0,264.7 257.0,259.3" fill="#6b7280"/>
+<text x="232.0" y="256.0" text-anchor="middle" fill="#6b7280" font-size="12">0.8 m</text>
+<text x="520.0" y="24.0" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">Gravity retaining wall, 1 m length</text>
+<rect width="720" height="420" rx="10" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+</svg>

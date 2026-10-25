@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 260" width="660" height="260" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="660" height="260" rx="10" fill="#ffffff"/><rect width="660" height="260" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<line x1="61.5" y1="112.5" x2="151.5" y2="112.5" stroke="#0f172a" stroke-opacity="0.18" stroke-width="7" stroke-linecap="round"/>
+<line x1="60.0" y1="110.0" x2="150.0" y2="110.0" stroke="#1f2937" stroke-width="7" stroke-linecap="round"/>
+<line x1="60.0" y1="110.0" x2="150.0" y2="110.0" stroke="#8294ab" stroke-width="3.8" stroke-linecap="round"/>
+<polygon points="150.0,110.0 138.0,130.0 162.0,130.0" fill="url(#steelg)" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/>
+<line x1="130.0" y1="130.0" x2="170.0" y2="130.0" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+<line x1="130.0" y1="130.0" x2="123.7" y2="139.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="138.0" y1="130.0" x2="131.7" y2="139.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="146.0" y1="130.0" x2="139.7" y2="139.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="154.0" y1="130.0" x2="147.7" y2="139.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="162.0" y1="130.0" x2="155.7" y2="139.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="170.0" y1="130.0" x2="163.7" y2="139.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<circle cx="150.0" cy="110.0" r="3.5" fill="#fff" stroke="#1f2937" stroke-width="2"/>
+<line x1="150.0" y1="110.0" x2="150.0" y2="70.0" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
+<polygon points="150.0,60.0 153.8,70.0 146.2,70.0" fill="#1f6feb"/>
+<text x="142.0" y="58.0" text-anchor="end" fill="#1f6feb" font-size="14" font-weight="bold">A<tspan dy="4" font-size="10">y</tspan><tspan dy="-4">&#8203;</tspan></text>
+<line x1="150.0" y1="110.0" x2="190.0" y2="110.0" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
+<polygon points="200.0,110.0 190.0,113.8 190.0,106.2" fill="#1f6feb"/>
+<text x="206.0" y="115.0" text-anchor="start" fill="#1f6feb" font-size="14" font-weight="bold">A<tspan dy="4" font-size="10">x</tspan><tspan dy="-4">&#8203;</tspan></text>
+<text x="130.0" y="220.0" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">Pin: 2 unknowns</text>
+<line x1="291.5" y1="112.5" x2="381.5" y2="112.5" stroke="#0f172a" stroke-opacity="0.18" stroke-width="7" stroke-linecap="round"/>
+<line x1="290.0" y1="110.0" x2="380.0" y2="110.0" stroke="#1f2937" stroke-width="7" stroke-linecap="round"/>
+<line x1="290.0" y1="110.0" x2="380.0" y2="110.0" stroke="#8294ab" stroke-width="3.8" stroke-linecap="round"/>
+<polygon points="380.0,110.0 368.0,127.0 392.0,127.0" fill="url(#steelg)" stroke="#1f2937" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="374.0" cy="131.0" r="4" fill="url(#steelg)" stroke="#1f2937" stroke-width="1.6"/>
+<circle cx="386.0" cy="131.0" r="4" fill="url(#steelg)" stroke="#1f2937" stroke-width="1.6"/>
+<line x1="360.0" y1="135.0" x2="400.0" y2="135.0" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+<line x1="360.0" y1="135.0" x2="353.7" y2="144.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="368.0" y1="135.0" x2="361.7" y2="144.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="376.0" y1="135.0" x2="369.7" y2="144.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="384.0" y1="135.0" x2="377.7" y2="144.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="392.0" y1="135.0" x2="385.7" y2="144.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="400.0" y1="135.0" x2="393.7" y2="144.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="380.0" y1="110.0" x2="380.0" y2="65.0" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
+<polygon points="380.0,55.0 383.8,65.0 376.2,65.0" fill="#1f6feb"/>
+<text x="372.0" y="53.0" text-anchor="end" fill="#1f6feb" font-size="14" font-weight="bold">N</text>
+<text x="360.0" y="220.0" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">Roller: 1 unknown</text>
+<line x1="560.0" y1="170.0" x2="560.0" y2="60.0" stroke="#1f2937" stroke-width="2" stroke-linecap="round"/>
+<line x1="560.0" y1="170.0" x2="570.0" y2="163.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="160.8" x2="570.0" y2="153.8" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="151.7" x2="570.0" y2="144.7" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="142.5" x2="570.0" y2="135.5" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="133.3" x2="570.0" y2="126.3" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="124.2" x2="570.0" y2="117.2" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="115.0" x2="570.0" y2="108.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="105.8" x2="570.0" y2="98.8" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="96.7" x2="570.0" y2="89.7" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="87.5" x2="570.0" y2="80.5" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="78.3" x2="570.0" y2="71.3" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="69.2" x2="570.0" y2="62.2" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="560.0" y1="60.0" x2="570.0" y2="53.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="481.5" y1="112.5" x2="561.5" y2="112.5" stroke="#0f172a" stroke-opacity="0.18" stroke-width="7" stroke-linecap="round"/>
+<line x1="480.0" y1="110.0" x2="560.0" y2="110.0" stroke="#1f2937" stroke-width="7" stroke-linecap="round"/>
+<line x1="480.0" y1="110.0" x2="560.0" y2="110.0" stroke="#8294ab" stroke-width="3.8" stroke-linecap="round"/>
+<line x1="540.0" y1="110.0" x2="540.0" y2="65.0" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
+<polygon points="540.0,55.0 543.8,65.0 536.2,65.0" fill="#1f6feb"/>
+<text x="532.0" y="53.0" text-anchor="end" fill="#1f6feb" font-size="14" font-weight="bold">A<tspan dy="4" font-size="10">y</tspan><tspan dy="-4">&#8203;</tspan></text>
+<line x1="560.0" y1="110.0" x2="525.0" y2="110.0" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
+<polygon points="515.0,110.0 525.0,106.2 525.0,113.8" fill="#1f6feb"/>
+<text x="508.0" y="124.0" text-anchor="end" fill="#1f6feb" font-size="14" font-weight="bold">A<tspan dy="4" font-size="10">x</tspan><tspan dy="-4">&#8203;</tspan></text>
+<polyline points="589.4,93.0 588.5,91.5 587.5,90.0 586.4,88.6 585.3,87.2 584.0,86.0 582.8,84.7 581.4,83.6 580.0,82.5 578.5,81.5 577.0,80.6 575.4,79.7 573.8,78.9 572.2,78.3 570.5,77.7 568.8,77.2 567.1,76.7 565.3,76.4 563.6,76.2 561.8,76.0 560.0,76.0 558.2,76.0 556.4,76.2 554.7,76.4 552.9,76.7 551.2,77.2 549.5,77.7 547.8,78.3 546.2,78.9 544.6,79.7 543.0,80.6 541.5,81.5 540.0,82.5 538.6,83.6 537.2,84.7 536.0,86.0 534.7,87.2 533.6,88.6 532.5,90.0 531.5,91.5" fill="none" stroke="#1a7f37" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="533.6" y1="87.8" x2="535.1" y2="85.2" stroke="#1a7f37" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="530.6,93.0 532.1,83.5 538.0,86.9" fill="#1a7f37"/>
+<text x="592.0" y="70.0" text-anchor="start" fill="#1a7f37" font-size="14" font-weight="bold">M<tspan dy="4" font-size="10">A</tspan><tspan dy="-4">&#8203;</tspan></text>
+<text x="560.0" y="220.0" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">Fixed: 3 unknowns</text>
+</svg>

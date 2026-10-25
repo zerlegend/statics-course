@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" width="560" height="440" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="560" height="440" rx="10" fill="#ffffff"/><rect width="560" height="440" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<line x1="90.0" y1="270.0" x2="461.0" y2="270.0" stroke="#6b7280" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="470.0,270.0 461.0,273.4 461.0,266.6" fill="#6b7280"/>
+<line x1="280.0" y1="420.0" x2="280.0" y2="119.0" stroke="#6b7280" stroke-width="1.6" stroke-linecap="round"/>
+<polygon points="280.0,110.0 283.4,119.0 276.6,119.0" fill="#6b7280"/>
+<text x="480.0" y="275.0" text-anchor="middle" fill="#6b7280" font-size="14" font-style="italic">x</text>
+<text x="280.0" y="102.0" text-anchor="middle" fill="#6b7280" font-size="14" font-style="italic">y</text>
+<line x1="280.0" y1="270.0" x2="427.6" y2="343.8" stroke="#1a7f37" stroke-width="3" stroke-linecap="round"/>
+<polygon points="436.5,348.3 425.9,347.2 429.3,340.4" fill="#1a7f37"/>
+<line x1="280.0" y1="270.0" x2="145.8" y2="202.9" stroke="#1a7f37" stroke-width="2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<line x1="280.0" y1="270.0" x2="342.6" y2="144.8" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<polygon points="347.1,135.8 346.0,146.5 339.2,143.1" fill="#c0392b"/>
+<line x1="280.0" y1="270.0" x2="226.3" y2="377.3" stroke="#c0392b" stroke-width="2" stroke-dasharray="6,4" stroke-linecap="round"/>
+<text x="448.5" y="360.3" text-anchor="middle" fill="#1a7f37" font-size="16" font-weight="bold">1</text>
+<text x="359.1" y="135.8" text-anchor="middle" fill="#c0392b" font-size="16" font-weight="bold">2</text>
+<polyline points="350.0,270.0 350.0,270.8 350.0,271.6 350.0,272.4 349.9,273.2 349.9,274.1 349.8,274.9 349.8,275.7 349.7,276.5 349.6,277.3 349.5,278.1 349.4,278.9 349.3,279.7 349.2,280.5 349.1,281.3 348.9,282.1 348.8,282.9 348.6,283.7 348.5,284.5 348.3,285.3 348.1,286.1 347.9,286.9 347.7,287.7 347.5,288.4 347.3,289.2 347.1,290.0 346.8,290.8 346.6,291.6 346.3,292.3 346.1,293.1 345.8,293.9 345.5,294.6 345.2,295.4 344.9,296.1 344.6,296.9 344.3,297.6 344.0,298.4 343.7,299.1 343.3,299.9 343.0,300.6 342.6,301.3" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="376.0" y="304.0" text-anchor="middle" fill="#6b7280" font-size="13">26.6°</text>
+<polyline points="324.7,292.4 325.6,290.6 326.3,288.8 327.0,287.0 327.7,285.1 328.2,283.2 328.7,281.3 329.1,279.4 329.4,277.5 329.7,275.5 329.9,273.5 330.0,271.6 330.0,269.6 329.9,267.7 329.8,265.7 329.6,263.8 329.3,261.8 329.0,259.9 328.5,258.0 328.0,256.1 327.4,254.2 326.8,252.3 326.0,250.5 325.2,248.7 324.4,247.0 323.4,245.2 322.4,243.6 321.4,241.9 320.2,240.3 319.0,238.8 317.8,237.2 316.5,235.8 315.1,234.4 313.7,233.0 312.2,231.7 310.7,230.5 309.1,229.3 307.5,228.2 305.8,227.2 304.1,226.2 302.4,225.3" fill="none" stroke="#9ca3af" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="340.0" y="240.0" text-anchor="middle" fill="#9ca3af" font-size="12">90°</text>
+<circle cx="280.0" cy="270.0" r="4" fill="#1f2937" stroke="#1f2937" stroke-width="1"/>
+<text x="24.0" y="30.0" text-anchor="start" fill="#1f2937" font-size="13">Given: I<tspan dy="4" font-size="10">x</tspan><tspan dy="-4">&#8203;</tspan> = 9, I<tspan dy="4" font-size="10">y</tspan><tspan dy="-4">&#8203;</tspan> = 3, I<tspan dy="4" font-size="10">xy</tspan><tspan dy="-4">&#8203;</tspan> = 4   (×10<tspan dy="-5" font-size="10">6</tspan><tspan dy="5">&#8203;</tspan> mm<tspan dy="-5" font-size="10">4</tspan><tspan dy="5">&#8203;</tspan>)</text>
+<text x="24.0" y="52.0" text-anchor="start" fill="#1a7f37" font-size="13">Axis 1 (green): I<tspan dy="4" font-size="10">max</tspan><tspan dy="-4">&#8203;</tspan> = 11 × 10<tspan dy="-5" font-size="10">6</tspan><tspan dy="5">&#8203;</tspan> mm<tspan dy="-5" font-size="10">4</tspan><tspan dy="5">&#8203;</tspan>, at 26.6° clockwise from x</text>
+<text x="24.0" y="74.0" text-anchor="start" fill="#c0392b" font-size="13">Axis 2 (red): I<tspan dy="4" font-size="10">min</tspan><tspan dy="-4">&#8203;</tspan> = 1 × 10<tspan dy="-5" font-size="10">6</tspan><tspan dy="5">&#8203;</tspan> mm<tspan dy="-5" font-size="10">4</tspan><tspan dy="5">&#8203;</tspan>, at 63.4° from x</text>
+</svg>

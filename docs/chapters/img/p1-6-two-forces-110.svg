@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 300" width="440" height="300" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#eef2f7" stroke-width="1"/></pattern>
+<pattern id="conc" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#d5dfeb"/><circle cx="2" cy="2" r="0.8" fill="#aebccd"/><circle cx="6.5" cy="5" r="0.7" fill="#b9c6d6"/><circle cx="4" cy="7.5" r="0.6" fill="#a4b3c6"/></pattern>
+<pattern id="soil" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#e9dcc6"/><circle cx="2" cy="3" r="1" fill="#c9b390"/><circle cx="7" cy="7" r="0.9" fill="#b89f78"/><circle cx="8" cy="2" r="0.6" fill="#d6c3a2"/></pattern>
+<pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#c98a6b"/><path d="M0 6H24M12 0V6M0 6V12M24 6V12" stroke="#e8d3c6" stroke-width="1.2" fill="none"/></pattern>
+<linearGradient id="steelg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f7fb"/><stop offset="1" stop-color="#a9b5c5"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fb"/><stop offset="1" stop-color="#f5faff"/></linearGradient>
+<filter id="sh" x="-10%" y="-10%" width="125%" height="130%"><feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.22"/></filter>
+</defs>
+<rect width="440" height="300" rx="10" fill="#ffffff"/><rect width="440" height="300" rx="10" fill="url(#grid)" stroke="#cbd5e1"/>
+<line x1="150.0" y1="210.0" x2="340.0" y2="210.0" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="350.0,210.0 340.0,213.8 340.0,206.2" fill="#c0392b"/>
+<line x1="150.0" y1="210.0" x2="112.4" y2="106.6" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="109.0,97.2 115.9,105.3 108.8,107.9" fill="#c0392b"/>
+<text x="346.0" y="232.0" text-anchor="end" fill="#c0392b" font-size="14" font-weight="bold">70 N</text>
+<text x="103.0" y="91.2" text-anchor="end" fill="#c0392b" font-size="14" font-weight="bold">50 N</text>
+<polyline points="194.0,210.0 193.9,207.9 193.8,205.8 193.5,203.7 193.2,201.6 192.7,199.5 192.2,197.5 191.5,195.5 190.8,193.5 190.0,191.6 189.0,189.7 188.0,187.8 186.9,186.0 185.7,184.3 184.4,182.6 183.1,181.0 181.7,179.4 180.1,178.0 178.6,176.5 176.9,175.2 175.2,174.0 173.5,172.8 171.7,171.7 169.8,170.7 167.9,169.8 165.9,169.0 164.0,168.3 161.9,167.7 159.9,167.1 157.8,166.7 155.7,166.4 153.6,166.2 151.5,166.0 149.4,166.0 147.3,166.1 145.2,166.3 143.1,166.5 141.0,166.9 139.0,167.4 137.0,168.0 135.0,168.7" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="208.0" y="162.0" text-anchor="middle" fill="#6b7280" font-size="13">110°</text>
+<text x="40.0" y="270.0" text-anchor="start" fill="#1a7f37" font-size="13">R = ?  and its angle from the 70 N force</text>
+<circle cx="150.0" cy="210.0" r="4" fill="#1f2937" stroke="#1f2937" stroke-width="1"/>
+</svg>
